@@ -94,7 +94,7 @@ class Quiz:
         wc = len(q) - self.correct
         correct = "No. of correct answers: " + str(self.correct)
         wrong = "No. of wrong answers: " + str(wc)
-        string = "Himashree Vijayan"
+        string = "Name"
         mb.showinfo("RESULT", "\n".join([string, correct, wrong, result]))
 
 
