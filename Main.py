@@ -6,6 +6,7 @@ root = tkinter.Tk()
 root.title("PyQuiz")
 root.geometry("800x450")
 root.resizable(0, 0)
+#You can change the color theme of this quiz app as per your requirement
 root.config(background='black')
 name_var = StringVar()
 
@@ -27,6 +28,7 @@ l2.place(x=180, y=105)
 e = Entry(root, textvariable=name_var, width=25, font='ariel 16 bold')
 e.place(x=300, y=110)
 
+#You can add any number of questions or change the questions as per your need!
 q = [
     "Q1. ∫x dx from x=0 to x=2 will be?",
     "Q2. Formula for mass energy equivalence is?",
@@ -40,6 +42,7 @@ q = [
     "Q10. nCr = ?"
 ]
 
+#If you are changing the questions, do not forget to make changes in the options and the answer list too :)
 options = [
     ["0", "1", "2", "4"],
     ["R = Ro e^-λt", "Δm = M – m = [Zmp + (A – Z)mn – mn]", "E=mc^2 ", "dN/dt = - λN"],
